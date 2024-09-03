@@ -26,7 +26,7 @@
             - 'tf/**'
             - 'libs/actions-runner-controller/**'
     - "if": "steps.filter.outputs.workflows == 'true'"
-      "uses": "actions/download-artifact@v2"
+      "uses": "actions/download-artifact@v4.1.7"
       "with":
         "name": "docker-artifact"
         "path": "artifacts"
@@ -66,7 +66,7 @@
             - 'tf/**'
             - 'libs/aiven/**'
     - "if": "steps.filter.outputs.workflows == 'true'"
-      "uses": "actions/download-artifact@v2"
+      "uses": "actions/download-artifact@v4.1.7"
       "with":
         "name": "docker-artifact"
         "path": "artifacts"
@@ -106,7 +106,7 @@
             - 'tf/**'
             - 'libs/argo-cd/**'
     - "if": "steps.filter.outputs.workflows == 'true'"
-      "uses": "actions/download-artifact@v2"
+      "uses": "actions/download-artifact@v4.1.7"
       "with":
         "name": "docker-artifact"
         "path": "artifacts"
@@ -146,7 +146,7 @@
             - 'tf/**'
             - 'libs/argo-rollouts/**'
     - "if": "steps.filter.outputs.workflows == 'true'"
-      "uses": "actions/download-artifact@v2"
+      "uses": "actions/download-artifact@v4.1.7"
       "with":
         "name": "docker-artifact"
         "path": "artifacts"
@@ -186,7 +186,7 @@
             - 'tf/**'
             - 'libs/argo-workflows/**'
     - "if": "steps.filter.outputs.workflows == 'true'"
-      "uses": "actions/download-artifact@v2"
+      "uses": "actions/download-artifact@v4.1.7"
       "with":
         "name": "docker-artifact"
         "path": "artifacts"
@@ -226,7 +226,7 @@
             - 'tf/**'
             - 'libs/aws-load-balancer-controller/**'
     - "if": "steps.filter.outputs.workflows == 'true'"
-      "uses": "actions/download-artifact@v2"
+      "uses": "actions/download-artifact@v4.1.7"
       "with":
         "name": "docker-artifact"
         "path": "artifacts"
@@ -266,7 +266,7 @@
             - 'tf/**'
             - 'libs/banzai-logging/**'
     - "if": "steps.filter.outputs.workflows == 'true'"
-      "uses": "actions/download-artifact@v2"
+      "uses": "actions/download-artifact@v4.1.7"
       "with":
         "name": "docker-artifact"
         "path": "artifacts"
@@ -306,7 +306,7 @@
             - 'tf/**'
             - 'libs/banzaicloud-bank-vaults/**'
     - "if": "steps.filter.outputs.workflows == 'true'"
-      "uses": "actions/download-artifact@v2"
+      "uses": "actions/download-artifact@v4.1.7"
       "with":
         "name": "docker-artifact"
         "path": "artifacts"
@@ -357,7 +357,7 @@
             - 'tf/**'
             - 'libs/calico/**'
     - "if": "steps.filter.outputs.workflows == 'true'"
-      "uses": "actions/download-artifact@v2"
+      "uses": "actions/download-artifact@v4.1.7"
       "with":
         "name": "docker-artifact"
         "path": "artifacts"
@@ -397,7 +397,7 @@
             - 'tf/**'
             - 'libs/cert-manager/**'
     - "if": "steps.filter.outputs.workflows == 'true'"
-      "uses": "actions/download-artifact@v2"
+      "uses": "actions/download-artifact@v4.1.7"
       "with":
         "name": "docker-artifact"
         "path": "artifacts"
@@ -437,7 +437,7 @@
             - 'tf/**'
             - 'libs/cilium/**'
     - "if": "steps.filter.outputs.workflows == 'true'"
-      "uses": "actions/download-artifact@v2"
+      "uses": "actions/download-artifact@v4.1.7"
       "with":
         "name": "docker-artifact"
         "path": "artifacts"
@@ -477,7 +477,7 @@
             - 'tf/**'
             - 'libs/cloudnative-pg/**'
     - "if": "steps.filter.outputs.workflows == 'true'"
-      "uses": "actions/download-artifact@v2"
+      "uses": "actions/download-artifact@v4.1.7"
       "with":
         "name": "docker-artifact"
         "path": "artifacts"
@@ -517,7 +517,7 @@
             - 'tf/**'
             - 'libs/cluster-api/**'
     - "if": "steps.filter.outputs.workflows == 'true'"
-      "uses": "actions/download-artifact@v2"
+      "uses": "actions/download-artifact@v4.1.7"
       "with":
         "name": "docker-artifact"
         "path": "artifacts"
@@ -557,7 +557,7 @@
             - 'tf/**'
             - 'libs/cluster-api-provider-aws/**'
     - "if": "steps.filter.outputs.workflows == 'true'"
-      "uses": "actions/download-artifact@v2"
+      "uses": "actions/download-artifact@v4.1.7"
       "with":
         "name": "docker-artifact"
         "path": "artifacts"
@@ -597,7 +597,7 @@
             - 'tf/**'
             - 'libs/cnrm/**'
     - "if": "steps.filter.outputs.workflows == 'true'"
-      "uses": "actions/download-artifact@v2"
+      "uses": "actions/download-artifact@v4.1.7"
       "with":
         "name": "docker-artifact"
         "path": "artifacts"
@@ -637,7 +637,7 @@
             - 'tf/**'
             - 'libs/composable/**'
     - "if": "steps.filter.outputs.workflows == 'true'"
-      "uses": "actions/download-artifact@v2"
+      "uses": "actions/download-artifact@v4.1.7"
       "with":
         "name": "docker-artifact"
         "path": "artifacts"
@@ -677,7 +677,7 @@
             - 'tf/**'
             - 'libs/consul/**'
     - "if": "steps.filter.outputs.workflows == 'true'"
-      "uses": "actions/download-artifact@v2"
+      "uses": "actions/download-artifact@v4.1.7"
       "with":
         "name": "docker-artifact"
         "path": "artifacts"
@@ -717,7 +717,7 @@
             - 'tf/**'
             - 'libs/contour/**'
     - "if": "steps.filter.outputs.workflows == 'true'"
-      "uses": "actions/download-artifact@v2"
+      "uses": "actions/download-artifact@v4.1.7"
       "with":
         "name": "docker-artifact"
         "path": "artifacts"
@@ -757,7 +757,7 @@
             - 'tf/**'
             - 'libs/crossplane/**'
     - "if": "steps.filter.outputs.workflows == 'true'"
-      "uses": "actions/download-artifact@v2"
+      "uses": "actions/download-artifact@v4.1.7"
       "with":
         "name": "docker-artifact"
         "path": "artifacts"
@@ -805,7 +805,7 @@
             - 'tf/**'
             - 'libs/eck-operator/**'
     - "if": "steps.filter.outputs.workflows == 'true'"
-      "uses": "actions/download-artifact@v2"
+      "uses": "actions/download-artifact@v4.1.7"
       "with":
         "name": "docker-artifact"
         "path": "artifacts"
@@ -845,7 +845,7 @@
             - 'tf/**'
             - 'libs/edp-keycloak-operator/**'
     - "if": "steps.filter.outputs.workflows == 'true'"
-      "uses": "actions/download-artifact@v2"
+      "uses": "actions/download-artifact@v4.1.7"
       "with":
         "name": "docker-artifact"
         "path": "artifacts"
@@ -885,7 +885,7 @@
             - 'tf/**'
             - 'libs/external-secrets/**'
     - "if": "steps.filter.outputs.workflows == 'true'"
-      "uses": "actions/download-artifact@v2"
+      "uses": "actions/download-artifact@v4.1.7"
       "with":
         "name": "docker-artifact"
         "path": "artifacts"
@@ -925,7 +925,7 @@
             - 'tf/**'
             - 'libs/flagger/**'
     - "if": "steps.filter.outputs.workflows == 'true'"
-      "uses": "actions/download-artifact@v2"
+      "uses": "actions/download-artifact@v4.1.7"
       "with":
         "name": "docker-artifact"
         "path": "artifacts"
@@ -965,7 +965,7 @@
             - 'tf/**'
             - 'libs/fluxcd/**'
     - "if": "steps.filter.outputs.workflows == 'true'"
-      "uses": "actions/download-artifact@v2"
+      "uses": "actions/download-artifact@v4.1.7"
       "with":
         "name": "docker-artifact"
         "path": "artifacts"
@@ -1005,7 +1005,7 @@
             - 'tf/**'
             - 'libs/gatekeeper/**'
     - "if": "steps.filter.outputs.workflows == 'true'"
-      "uses": "actions/download-artifact@v2"
+      "uses": "actions/download-artifact@v4.1.7"
       "with":
         "name": "docker-artifact"
         "path": "artifacts"
@@ -1045,7 +1045,7 @@
             - 'tf/**'
             - 'libs/gateway-api/**'
     - "if": "steps.filter.outputs.workflows == 'true'"
-      "uses": "actions/download-artifact@v2"
+      "uses": "actions/download-artifact@v4.1.7"
       "with":
         "name": "docker-artifact"
         "path": "artifacts"
@@ -1085,7 +1085,7 @@
             - 'tf/**'
             - 'libs/google-cloud-sql-proxy-operator/**'
     - "if": "steps.filter.outputs.workflows == 'true'"
-      "uses": "actions/download-artifact@v2"
+      "uses": "actions/download-artifact@v4.1.7"
       "with":
         "name": "docker-artifact"
         "path": "artifacts"
@@ -1125,7 +1125,7 @@
             - 'tf/**'
             - 'libs/grafana-agent/**'
     - "if": "steps.filter.outputs.workflows == 'true'"
-      "uses": "actions/download-artifact@v2"
+      "uses": "actions/download-artifact@v4.1.7"
       "with":
         "name": "docker-artifact"
         "path": "artifacts"
@@ -1165,7 +1165,7 @@
             - 'tf/**'
             - 'libs/grafana-operator/**'
     - "if": "steps.filter.outputs.workflows == 'true'"
-      "uses": "actions/download-artifact@v2"
+      "uses": "actions/download-artifact@v4.1.7"
       "with":
         "name": "docker-artifact"
         "path": "artifacts"
@@ -1205,7 +1205,7 @@
             - 'tf/**'
             - 'libs/harbor-operator/**'
     - "if": "steps.filter.outputs.workflows == 'true'"
-      "uses": "actions/download-artifact@v2"
+      "uses": "actions/download-artifact@v4.1.7"
       "with":
         "name": "docker-artifact"
         "path": "artifacts"
@@ -1245,7 +1245,7 @@
             - 'tf/**'
             - 'libs/istio/**'
     - "if": "steps.filter.outputs.workflows == 'true'"
-      "uses": "actions/download-artifact@v2"
+      "uses": "actions/download-artifact@v4.1.7"
       "with":
         "name": "docker-artifact"
         "path": "artifacts"
@@ -1285,7 +1285,7 @@
             - 'tf/**'
             - 'libs/k8s/**'
     - "if": "steps.filter.outputs.workflows == 'true'"
-      "uses": "actions/download-artifact@v2"
+      "uses": "actions/download-artifact@v4.1.7"
       "with":
         "name": "docker-artifact"
         "path": "artifacts"
@@ -1325,7 +1325,7 @@
             - 'tf/**'
             - 'libs/karpenter/**'
     - "if": "steps.filter.outputs.workflows == 'true'"
-      "uses": "actions/download-artifact@v2"
+      "uses": "actions/download-artifact@v4.1.7"
       "with":
         "name": "docker-artifact"
         "path": "artifacts"
@@ -1365,7 +1365,7 @@
             - 'tf/**'
             - 'libs/keda/**'
     - "if": "steps.filter.outputs.workflows == 'true'"
-      "uses": "actions/download-artifact@v2"
+      "uses": "actions/download-artifact@v4.1.7"
       "with":
         "name": "docker-artifact"
         "path": "artifacts"
@@ -1405,7 +1405,7 @@
             - 'tf/**'
             - 'libs/kube-prometheus/**'
     - "if": "steps.filter.outputs.workflows == 'true'"
-      "uses": "actions/download-artifact@v2"
+      "uses": "actions/download-artifact@v4.1.7"
       "with":
         "name": "docker-artifact"
         "path": "artifacts"
@@ -1445,7 +1445,7 @@
             - 'tf/**'
             - 'libs/kubernetes-nmstate/**'
     - "if": "steps.filter.outputs.workflows == 'true'"
-      "uses": "actions/download-artifact@v2"
+      "uses": "actions/download-artifact@v4.1.7"
       "with":
         "name": "docker-artifact"
         "path": "artifacts"
@@ -1485,7 +1485,7 @@
             - 'tf/**'
             - 'libs/kubernetes-secret-generator/**'
     - "if": "steps.filter.outputs.workflows == 'true'"
-      "uses": "actions/download-artifact@v2"
+      "uses": "actions/download-artifact@v4.1.7"
       "with":
         "name": "docker-artifact"
         "path": "artifacts"
@@ -1525,7 +1525,7 @@
             - 'tf/**'
             - 'libs/kubevela/**'
     - "if": "steps.filter.outputs.workflows == 'true'"
-      "uses": "actions/download-artifact@v2"
+      "uses": "actions/download-artifact@v4.1.7"
       "with":
         "name": "docker-artifact"
         "path": "artifacts"
@@ -1565,7 +1565,7 @@
             - 'tf/**'
             - 'libs/kyverno/**'
     - "if": "steps.filter.outputs.workflows == 'true'"
-      "uses": "actions/download-artifact@v2"
+      "uses": "actions/download-artifact@v4.1.7"
       "with":
         "name": "docker-artifact"
         "path": "artifacts"
@@ -1605,7 +1605,7 @@
             - 'tf/**'
             - 'libs/litmus-chaos/**'
     - "if": "steps.filter.outputs.workflows == 'true'"
-      "uses": "actions/download-artifact@v2"
+      "uses": "actions/download-artifact@v4.1.7"
       "with":
         "name": "docker-artifact"
         "path": "artifacts"
@@ -1645,7 +1645,7 @@
             - 'tf/**'
             - 'libs/openshift/**'
     - "if": "steps.filter.outputs.workflows == 'true'"
-      "uses": "actions/download-artifact@v2"
+      "uses": "actions/download-artifact@v4.1.7"
       "with":
         "name": "docker-artifact"
         "path": "artifacts"
@@ -1685,7 +1685,7 @@
             - 'tf/**'
             - 'libs/prometheus-operator/**'
     - "if": "steps.filter.outputs.workflows == 'true'"
-      "uses": "actions/download-artifact@v2"
+      "uses": "actions/download-artifact@v4.1.7"
       "with":
         "name": "docker-artifact"
         "path": "artifacts"
@@ -1725,7 +1725,7 @@
             - 'tf/**'
             - 'libs/rabbitmq/**'
     - "if": "steps.filter.outputs.workflows == 'true'"
-      "uses": "actions/download-artifact@v2"
+      "uses": "actions/download-artifact@v4.1.7"
       "with":
         "name": "docker-artifact"
         "path": "artifacts"
@@ -1765,7 +1765,7 @@
             - 'tf/**'
             - 'libs/rabbitmq-messaging-topology-operator/**'
     - "if": "steps.filter.outputs.workflows == 'true'"
-      "uses": "actions/download-artifact@v2"
+      "uses": "actions/download-artifact@v4.1.7"
       "with":
         "name": "docker-artifact"
         "path": "artifacts"
@@ -1929,7 +1929,7 @@
             - 'tf/**'
             - 'libs/secrets-store-csi-driver/**'
     - "if": "steps.filter.outputs.workflows == 'true'"
-      "uses": "actions/download-artifact@v2"
+      "uses": "actions/download-artifact@v4.1.7"
       "with":
         "name": "docker-artifact"
         "path": "artifacts"
@@ -1969,7 +1969,7 @@
             - 'tf/**'
             - 'libs/securecodebox/**'
     - "if": "steps.filter.outputs.workflows == 'true'"
-      "uses": "actions/download-artifact@v2"
+      "uses": "actions/download-artifact@v4.1.7"
       "with":
         "name": "docker-artifact"
         "path": "artifacts"
@@ -2009,7 +2009,7 @@
             - 'tf/**'
             - 'libs/strimzi/**'
     - "if": "steps.filter.outputs.workflows == 'true'"
-      "uses": "actions/download-artifact@v2"
+      "uses": "actions/download-artifact@v4.1.7"
       "with":
         "name": "docker-artifact"
         "path": "artifacts"
@@ -2049,7 +2049,7 @@
             - 'tf/**'
             - 'libs/teleport-operator/**'
     - "if": "steps.filter.outputs.workflows == 'true'"
-      "uses": "actions/download-artifact@v2"
+      "uses": "actions/download-artifact@v4.1.7"
       "with":
         "name": "docker-artifact"
         "path": "artifacts"
@@ -2089,7 +2089,7 @@
             - 'tf/**'
             - 'libs/traefik/**'
     - "if": "steps.filter.outputs.workflows == 'true'"
-      "uses": "actions/download-artifact@v2"
+      "uses": "actions/download-artifact@v4.1.7"
       "with":
         "name": "docker-artifact"
         "path": "artifacts"
@@ -2129,7 +2129,7 @@
             - 'tf/**'
             - 'libs/vault-secrets-operator/**'
     - "if": "steps.filter.outputs.workflows == 'true'"
-      "uses": "actions/download-artifact@v2"
+      "uses": "actions/download-artifact@v4.1.7"
       "with":
         "name": "docker-artifact"
         "path": "artifacts"
@@ -2169,7 +2169,7 @@
             - 'tf/**'
             - 'libs/vertical-pod-autoscaler/**'
     - "if": "steps.filter.outputs.workflows == 'true'"
-      "uses": "actions/download-artifact@v2"
+      "uses": "actions/download-artifact@v4.1.7"
       "with":
         "name": "docker-artifact"
         "path": "artifacts"
@@ -2209,7 +2209,7 @@
             - 'tf/**'
             - 'libs/zalando-postgres-operator/**'
     - "if": "steps.filter.outputs.workflows == 'true'"
-      "uses": "actions/download-artifact@v2"
+      "uses": "actions/download-artifact@v4.1.7"
       "with":
         "name": "docker-artifact"
         "path": "artifacts"
